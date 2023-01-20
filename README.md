@@ -25,7 +25,7 @@ Con esta información, debéis:
 
 Como habéis visto, en el modelo hay una relación. Sin embargo, en el archivo del seed no tenemos acceso a los objetos *request*, *response* y *next* para acceder a req.session.currentUser, así que, en el apartado "owner", podéis copiar y pegar `_id` de usuarios que hayáis creado previamente mediante el `signup`. 
 
-Los `_id` los podéis copiar y pegar de la base de datos mediante Mongo Compass. Así, en el array, cada receta tendrá un campo así:
+Los `_id` los podéis copiar y pegar de la base de datos mediante Mongo Compass. Así, en el array, cada mascota tendrá un campo así:
 
 ```js
 {
