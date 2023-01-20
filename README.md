@@ -14,6 +14,7 @@ Cada una de las mascotas tendrá la siguiente estructura:
   type: String, // del tipo "dog", "cat", "rabbit"
   image: String,
   needsMedicine: Boolean, 
+  description: String,
   owner: ObjectId de User, //¿quién está loguinado en el momento de añadir la mascota?
 }
 ```
